@@ -1,4 +1,4 @@
-from report_generator import generate_pdf
+from Backend.report_generator import generate_pdf
 from fastapi.responses import FileResponse
 import os
 from fastapi.staticfiles import StaticFiles
