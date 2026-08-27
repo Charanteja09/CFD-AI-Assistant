@@ -6,9 +6,9 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import HTMLResponse
 from pathlib import Path
 
-from analyzer import analyze_cfd_file
-from visualization import create_graphs
-from ai_assistant import (
+from Backend.analyzer import analyze_cfd_file
+from Backend.visualization import create_graphs
+from Backend.ai_assistant import (
     generate_summary,
     answer_question
 )
